@@ -310,7 +310,7 @@ def triangle_all_numbers_in_each_row(r):
     #   in this or the other problems in this module, as doing so
     #   would defeat the goal of providing practice at loops within loops.
     # ------------------------------------------------------------------
-    for k in range (r+1):
+    for k in range (r+1): 
         for _ in range (k):
             print (_+1, end='')
         print ()
